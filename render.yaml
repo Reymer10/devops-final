@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: devops-final
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
